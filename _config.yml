@@ -8,7 +8,6 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 
-<<<<<<< HEAD
 # Site settings
 # These are used to personalize your new site. If you look in the HTML files,
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
@@ -40,8 +39,3 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
-=======
-title: website
-description: a website
-theme: jekyll-theme-cayman
->>>>>>> 03a546e6ae91fb206d8e4c0928006ecca9761363
