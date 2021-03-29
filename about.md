@@ -1,7 +1,11 @@
 ---
-layout: default
 title: About
+layout: default
+permalink: /about/
 ---
-# About page
 
-This page tells you a little bit about the cool website.
+# This is the about page
+
+You will find lots of information on cool puppies and dogs!
+
+Go to our [Blog](/blog.html) to see more!

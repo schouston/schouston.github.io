@@ -1,7 +1,14 @@
-<nav>
+<nav class="navbar navbar-expand-md navbar-light fixed-top bg-light">
+  <a class="navbar-brand" href="/">Puppies and Kittens</a>
+  <ul class="navbar-nav mr-auto">
+
   {% for item in site.data.navigation %}
-      <a href="{{ item.link }}" {% if page.url == item.link %}style="color: red;"{% endif %}>
-        {{ item.name }}
-      </a>
-    {% endfor %}
+  <li class="nav-item">
+    <a href="{{ item.link }}" {% if page.url == item.link %}class="current"{% endif %}>
+      {{ item.name }}
+    </a>
+    &nbsp
+  </li>
+  {% endfor %}
+  </ul>
 </nav>

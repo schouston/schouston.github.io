@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-03-29T11:44:09+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Puppies and Kittens</title><subtitle>This site is about Puppies and Kittens</subtitle><entry><title type="html">Testing!</title><link href="http://localhost:4000/testing/2021/03/24/boot.html" rel="alternate" type="text/html" title="Testing!" /><published>2021-03-24T11:42:19+00:00</published><updated>2021-03-24T11:42:19+00:00</updated><id>http://localhost:4000/testing/2021/03/24/boot</id><content type="html" xml:base="http://localhost:4000/testing/2021/03/24/boot.html">&lt;html lang=&quot;en&quot;&gt;
+  &lt;head&gt;
+    &lt;meta charset=&quot;utf-8&quot; /&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1, shrink-to-fit=no&quot; /&gt;
+    &lt;meta name=&quot;description&quot; content=&quot;&quot; /&gt;
+    &lt;meta name=&quot;author&quot; content=&quot;Mark Otto, Jacob Thornton, and Bootstrap contributors&quot; /&gt;
+    &lt;meta name=&quot;generator&quot; content=&quot;Jekyll v4.1.1&quot; /&gt;
+    &lt;title&gt;Album example · Bootstrap&lt;/title&gt;
+
+&lt;link rel=&quot;stylesheet&quot; href=&quot;https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css&quot; integrity=&quot;sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T&quot; crossorigin=&quot;anonymous&quot; /&gt;
+    &lt;link rel=&quot;canonical&quot; href=&quot;https://getbootstrap.com/docs/4.5/examples/album/&quot; /&gt;
+
+    &lt;!-- Bootstrap core CSS --&gt;
+
+
+    &lt;style&gt;
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    &lt;/style&gt;
+    &lt;!-- Custom styles for this template --&gt;
+    &lt;link href=&quot;/assets/css/album.css&quot; rel=&quot;stylesheet&quot; /&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;header&gt;
+  &lt;div class=&quot;collapse bg-dark&quot; id=&quot;navbarHeader&quot;&gt;
+    &lt;div class=&quot;container&quot;&gt;
+      &lt;div class=&quot;row&quot;&gt;
+        &lt;div class=&quot;col-sm-8 col-md-7 py-4&quot;&gt;
+          &lt;h4 class=&quot;text-white&quot;&gt;About&lt;/h4&gt;
+          &lt;p class=&quot;text-muted&quot;&gt;Add some information about the album below, the author, or any other background context. Make it a few sentences long so folks can pick up some informative tidbits. Then, link them off to some social networking sites or contact information.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;col-sm-4 offset-md-1 py-4&quot;&gt;
+          &lt;h4 class=&quot;text-white&quot;&gt;Contact&lt;/h4&gt;
+          &lt;ul class=&quot;list-unstyled&quot;&gt;
+            &lt;li&gt;&lt;a href=&quot;#&quot; class=&quot;text-white&quot;&gt;Follow on Twitter&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;#&quot; class=&quot;text-white&quot;&gt;Like on Facebook&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;#&quot; class=&quot;text-white&quot;&gt;Email me&lt;/a&gt;&lt;/li&gt;
+          &lt;/ul&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;navbar navbar-dark bg-dark shadow-sm&quot;&gt;
+    &lt;div class=&quot;container d-flex justify-content-between&quot;&gt;
+      &lt;a href=&quot;#&quot; class=&quot;navbar-brand d-flex align-items-center&quot;&gt;
+        &lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; width=&quot;20&quot; height=&quot;20&quot; fill=&quot;none&quot; stroke=&quot;currentColor&quot; stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot; stroke-width=&quot;2&quot; aria-hidden=&quot;true&quot; class=&quot;mr-2&quot; viewBox=&quot;0 0 24 24&quot; focusable=&quot;false&quot;&gt;&lt;path d=&quot;M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z&quot; /&gt;&lt;circle cx=&quot;12&quot; cy=&quot;13&quot; r=&quot;4&quot; /&gt;&lt;/svg&gt;
+        &lt;strong&gt;Album&lt;/strong&gt;
+      &lt;/a&gt;
+      &lt;button class=&quot;navbar-toggler&quot; type=&quot;button&quot; data-toggle=&quot;collapse&quot; data-target=&quot;#navbarHeader&quot; aria-controls=&quot;navbarHeader&quot; aria-expanded=&quot;false&quot; aria-label=&quot;Toggle navigation&quot;&gt;
+        &lt;span class=&quot;navbar-toggler-icon&quot;&gt;&lt;/span&gt;
+      &lt;/button&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/header&gt;
+
+&lt;main role=&quot;main&quot;&gt;
+
+  &lt;section class=&quot;jumbotron text-center&quot;&gt;
+    &lt;div class=&quot;container&quot;&gt;
+      &lt;h1&gt;Album example&lt;/h1&gt;
+      &lt;p class=&quot;lead text-muted&quot;&gt;Something short and leading about the collection below—its contents, the creator, etc. Make it short and sweet, but not too short so folks don’t simply skip over it entirely.&lt;/p&gt;
+      &lt;p&gt;
+        &lt;a href=&quot;#&quot; class=&quot;btn btn-primary my-2&quot;&gt;Main call to action&lt;/a&gt;
+        &lt;a href=&quot;#&quot; class=&quot;btn btn-secondary my-2&quot;&gt;Secondary action&lt;/a&gt;
+      &lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/section&gt;
+
+  &lt;div class=&quot;album py-5 bg-light&quot;&gt;
+    &lt;div class=&quot;container&quot;&gt;
+
+      &lt;div class=&quot;row&quot;&gt;
+        &lt;div class=&quot;col-md-4&quot;&gt;
+          &lt;div class=&quot;card mb-4 shadow-sm&quot;&gt;
+            &lt;svg class=&quot;bd-placeholder-img card-img-top&quot; width=&quot;100%&quot; height=&quot;225&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; preserveAspectRatio=&quot;xMidYMid slice&quot; focusable=&quot;false&quot; role=&quot;img&quot; aria-label=&quot;Placeholder: Thumbnail&quot;&gt;&lt;title&gt;Placeholder&lt;/title&gt;&lt;rect width=&quot;100%&quot; height=&quot;100%&quot; fill=&quot;#55595c&quot; /&gt;&lt;text x=&quot;50%&quot; y=&quot;50%&quot; fill=&quot;#eceeef&quot; dy=&quot;.3em&quot;&gt;Thumbnail&lt;/text&gt;&lt;/svg&gt;
+            &lt;div class=&quot;card-body&quot;&gt;
+              &lt;p class=&quot;card-text&quot;&gt;This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.&lt;/p&gt;
+              &lt;div class=&quot;d-flex justify-content-between align-items-center&quot;&gt;
+                &lt;div class=&quot;btn-group&quot;&gt;
+                  &lt;button type=&quot;button&quot; class=&quot;btn btn-sm btn-outline-secondary&quot;&gt;View&lt;/button&gt;
+                  &lt;button type=&quot;button&quot; class=&quot;btn btn-sm btn-outline-secondary&quot;&gt;Edit&lt;/button&gt;
+                &lt;/div&gt;
+                &lt;small class=&quot;text-muted&quot;&gt;9 mins&lt;/small&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;col-md-4&quot;&gt;
+          &lt;div class=&quot;card mb-4 shadow-sm&quot;&gt;
+            &lt;svg class=&quot;bd-placeholder-img card-img-top&quot; width=&quot;100%&quot; height=&quot;225&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; preserveAspectRatio=&quot;xMidYMid slice&quot; focusable=&quot;false&quot; role=&quot;img&quot; aria-label=&quot;Placeholder: Thumbnail&quot;&gt;&lt;title&gt;Placeholder&lt;/title&gt;&lt;rect width=&quot;100%&quot; height=&quot;100%&quot; fill=&quot;#55595c&quot; /&gt;&lt;text x=&quot;50%&quot; y=&quot;50%&quot; fill=&quot;#eceeef&quot; dy=&quot;.3em&quot;&gt;Thumbnail&lt;/text&gt;&lt;/svg&gt;
+            &lt;div class=&quot;card-body&quot;&gt;
+              &lt;p class=&quot;card-text&quot;&gt;This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.&lt;/p&gt;
+              &lt;div class=&quot;d-flex justify-content-between align-items-center&quot;&gt;
+                &lt;div class=&quot;btn-group&quot;&gt;
+                  &lt;button type=&quot;button&quot; class=&quot;btn btn-sm btn-outline-secondary&quot;&gt;View&lt;/button&gt;
+                  &lt;button type=&quot;button&quot; class=&quot;btn btn-sm btn-outline-secondary&quot;&gt;Edit&lt;/button&gt;
+                &lt;/div&gt;
+                &lt;small class=&quot;text-muted&quot;&gt;9 mins&lt;/small&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;col-md-4&quot;&gt;
+          &lt;div class=&quot;card mb-4 shadow-sm&quot;&gt;
+            &lt;svg class=&quot;bd-placeholder-img card-img-top&quot; width=&quot;100%&quot; height=&quot;225&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; preserveAspectRatio=&quot;xMidYMid slice&quot; focusable=&quot;false&quot; role=&quot;img&quot; aria-label=&quot;Placeholder: Thumbnail&quot;&gt;&lt;title&gt;Placeholder&lt;/title&gt;&lt;rect width=&quot;100%&quot; height=&quot;100%&quot; fill=&quot;#55595c&quot; /&gt;&lt;text x=&quot;50%&quot; y=&quot;50%&quot; fill=&quot;#eceeef&quot; dy=&quot;.3em&quot;&gt;Thumbnail&lt;/text&gt;&lt;/svg&gt;
+            &lt;div class=&quot;card-body&quot;&gt;
+              &lt;p class=&quot;card-text&quot;&gt;This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.&lt;/p&gt;
+              &lt;div class=&quot;d-flex justify-content-between align-items-center&quot;&gt;
+                &lt;div class=&quot;btn-group&quot;&gt;
+                  &lt;button type=&quot;button&quot; class=&quot;btn btn-sm btn-outline-secondary&quot;&gt;View&lt;/button&gt;
+                  &lt;button type=&quot;button&quot; class=&quot;btn btn-sm btn-outline-secondary&quot;&gt;Edit&lt;/button&gt;
+                &lt;/div&gt;
+                &lt;small class=&quot;text-muted&quot;&gt;9 mins&lt;/small&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+
+        &lt;div class=&quot;col-md-4&quot;&gt;
+          &lt;div class=&quot;card mb-4 shadow-sm&quot;&gt;
+            &lt;svg class=&quot;bd-placeholder-img card-img-top&quot; width=&quot;100%&quot; height=&quot;225&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; preserveAspectRatio=&quot;xMidYMid slice&quot; focusable=&quot;false&quot; role=&quot;img&quot; aria-label=&quot;Placeholder: Thumbnail&quot;&gt;&lt;title&gt;Placeholder&lt;/title&gt;&lt;rect width=&quot;100%&quot; height=&quot;100%&quot; fill=&quot;#55595c&quot; /&gt;&lt;text x=&quot;50%&quot; y=&quot;50%&quot; fill=&quot;#eceeef&quot; dy=&quot;.3em&quot;&gt;Thumbnail&lt;/text&gt;&lt;/svg&gt;
+            &lt;div class=&quot;card-body&quot;&gt;
+              &lt;p class=&quot;card-text&quot;&gt;This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.&lt;/p&gt;
+              &lt;div class=&quot;d-flex justify-content-between align-items-center&quot;&gt;
+                &lt;div class=&quot;btn-group&quot;&gt;
+                  &lt;button type=&quot;button&quot; class=&quot;btn btn-sm btn-outline-secondary&quot;&gt;View&lt;/button&gt;
+                  &lt;button type=&quot;button&quot; class=&quot;btn btn-sm btn-outline-secondary&quot;&gt;Edit&lt;/button&gt;
+                &lt;/div&gt;
+                &lt;small class=&quot;text-muted&quot;&gt;9 mins&lt;/small&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;col-md-4&quot;&gt;
+          &lt;div class=&quot;card mb-4 shadow-sm&quot;&gt;
+            &lt;svg class=&quot;bd-placeholder-img card-img-top&quot; width=&quot;100%&quot; height=&quot;225&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; preserveAspectRatio=&quot;xMidYMid slice&quot; focusable=&quot;false&quot; role=&quot;img&quot; aria-label=&quot;Placeholder: Thumbnail&quot;&gt;&lt;title&gt;Placeholder&lt;/title&gt;&lt;rect width=&quot;100%&quot; height=&quot;100%&quot; fill=&quot;#55595c&quot; /&gt;&lt;text x=&quot;50%&quot; y=&quot;50%&quot; fill=&quot;#eceeef&quot; dy=&quot;.3em&quot;&gt;Thumbnail&lt;/text&gt;&lt;/svg&gt;
+            &lt;div class=&quot;card-body&quot;&gt;
+              &lt;p class=&quot;card-text&quot;&gt;This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.&lt;/p&gt;
+              &lt;div class=&quot;d-flex justify-content-between align-items-center&quot;&gt;
+                &lt;div class=&quot;btn-group&quot;&gt;
+                  &lt;button type=&quot;button&quot; class=&quot;btn btn-sm btn-outline-secondary&quot;&gt;View&lt;/button&gt;
+                  &lt;button type=&quot;button&quot; class=&quot;btn btn-sm btn-outline-secondary&quot;&gt;Edit&lt;/button&gt;
+                &lt;/div&gt;
+                &lt;small class=&quot;text-muted&quot;&gt;9 mins&lt;/small&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;col-md-4&quot;&gt;
+          &lt;div class=&quot;card mb-4 shadow-sm&quot;&gt;
+            &lt;svg class=&quot;bd-placeholder-img card-img-top&quot; width=&quot;100%&quot; height=&quot;225&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; preserveAspectRatio=&quot;xMidYMid slice&quot; focusable=&quot;false&quot; role=&quot;img&quot; aria-label=&quot;Placeholder: Thumbnail&quot;&gt;&lt;title&gt;Placeholder&lt;/title&gt;&lt;rect width=&quot;100%&quot; height=&quot;100%&quot; fill=&quot;#55595c&quot; /&gt;&lt;text x=&quot;50%&quot; y=&quot;50%&quot; fill=&quot;#eceeef&quot; dy=&quot;.3em&quot;&gt;Thumbnail&lt;/text&gt;&lt;/svg&gt;
+            &lt;div class=&quot;card-body&quot;&gt;
+              &lt;p class=&quot;card-text&quot;&gt;This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.&lt;/p&gt;
+              &lt;div class=&quot;d-flex justify-content-between align-items-center&quot;&gt;
+                &lt;div class=&quot;btn-group&quot;&gt;
+                  &lt;button type=&quot;button&quot; class=&quot;btn btn-sm btn-outline-secondary&quot;&gt;View&lt;/button&gt;
+                  &lt;button type=&quot;button&quot; class=&quot;btn btn-sm btn-outline-secondary&quot;&gt;Edit&lt;/button&gt;
+                &lt;/div&gt;
+                &lt;small class=&quot;text-muted&quot;&gt;9 mins&lt;/small&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+
+        &lt;div class=&quot;col-md-4&quot;&gt;
+          &lt;div class=&quot;card mb-4 shadow-sm&quot;&gt;
+            &lt;svg class=&quot;bd-placeholder-img card-img-top&quot; width=&quot;100%&quot; height=&quot;225&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; preserveAspectRatio=&quot;xMidYMid slice&quot; focusable=&quot;false&quot; role=&quot;img&quot; aria-label=&quot;Placeholder: Thumbnail&quot;&gt;&lt;title&gt;Placeholder&lt;/title&gt;&lt;rect width=&quot;100%&quot; height=&quot;100%&quot; fill=&quot;#55595c&quot; /&gt;&lt;text x=&quot;50%&quot; y=&quot;50%&quot; fill=&quot;#eceeef&quot; dy=&quot;.3em&quot;&gt;Thumbnail&lt;/text&gt;&lt;/svg&gt;
+            &lt;div class=&quot;card-body&quot;&gt;
+              &lt;p class=&quot;card-text&quot;&gt;This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.&lt;/p&gt;
+              &lt;div class=&quot;d-flex justify-content-between align-items-center&quot;&gt;
+                &lt;div class=&quot;btn-group&quot;&gt;
+                  &lt;button type=&quot;button&quot; class=&quot;btn btn-sm btn-outline-secondary&quot;&gt;View&lt;/button&gt;
+                  &lt;button type=&quot;button&quot; class=&quot;btn btn-sm btn-outline-secondary&quot;&gt;Edit&lt;/button&gt;
+                &lt;/div&gt;
+                &lt;small class=&quot;text-muted&quot;&gt;9 mins&lt;/small&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;col-md-4&quot;&gt;
+          &lt;div class=&quot;card mb-4 shadow-sm&quot;&gt;
+            &lt;svg class=&quot;bd-placeholder-img card-img-top&quot; width=&quot;100%&quot; height=&quot;225&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; preserveAspectRatio=&quot;xMidYMid slice&quot; focusable=&quot;false&quot; role=&quot;img&quot; aria-label=&quot;Placeholder: Thumbnail&quot;&gt;&lt;title&gt;Placeholder&lt;/title&gt;&lt;rect width=&quot;100%&quot; height=&quot;100%&quot; fill=&quot;#55595c&quot; /&gt;&lt;text x=&quot;50%&quot; y=&quot;50%&quot; fill=&quot;#eceeef&quot; dy=&quot;.3em&quot;&gt;Thumbnail&lt;/text&gt;&lt;/svg&gt;
+            &lt;div class=&quot;card-body&quot;&gt;
+              &lt;p class=&quot;card-text&quot;&gt;This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.&lt;/p&gt;
+              &lt;div class=&quot;d-flex justify-content-between align-items-center&quot;&gt;
+                &lt;div class=&quot;btn-group&quot;&gt;
+                  &lt;button type=&quot;button&quot; class=&quot;btn btn-sm btn-outline-secondary&quot;&gt;View&lt;/button&gt;
+                  &lt;button type=&quot;button&quot; class=&quot;btn btn-sm btn-outline-secondary&quot;&gt;Edit&lt;/button&gt;
+                &lt;/div&gt;
+                &lt;small class=&quot;text-muted&quot;&gt;9 mins&lt;/small&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;col-md-4&quot;&gt;
+          &lt;div class=&quot;card mb-4 shadow-sm&quot;&gt;
+            &lt;svg class=&quot;bd-placeholder-img card-img-top&quot; width=&quot;100%&quot; height=&quot;225&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; preserveAspectRatio=&quot;xMidYMid slice&quot; focusable=&quot;false&quot; role=&quot;img&quot; aria-label=&quot;Placeholder: Thumbnail&quot;&gt;&lt;title&gt;Placeholder&lt;/title&gt;&lt;rect width=&quot;100%&quot; height=&quot;100%&quot; fill=&quot;#55595c&quot; /&gt;&lt;text x=&quot;50%&quot; y=&quot;50%&quot; fill=&quot;#eceeef&quot; dy=&quot;.3em&quot;&gt;Thumbnail&lt;/text&gt;&lt;/svg&gt;
+            &lt;div class=&quot;card-body&quot;&gt;
+              &lt;p class=&quot;card-text&quot;&gt;This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.&lt;/p&gt;
+              &lt;div class=&quot;d-flex justify-content-between align-items-center&quot;&gt;
+                &lt;div class=&quot;btn-group&quot;&gt;
+                  &lt;button type=&quot;button&quot; class=&quot;btn btn-sm btn-outline-secondary&quot;&gt;View&lt;/button&gt;
+                  &lt;button type=&quot;button&quot; class=&quot;btn btn-sm btn-outline-secondary&quot;&gt;Edit&lt;/button&gt;
+                &lt;/div&gt;
+                &lt;small class=&quot;text-muted&quot;&gt;9 mins&lt;/small&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+
+&lt;/main&gt;
+
+&lt;footer class=&quot;text-muted&quot;&gt;
+  &lt;div class=&quot;container&quot;&gt;
+    &lt;p class=&quot;float-right&quot;&gt;
+      &lt;a href=&quot;#&quot;&gt;Back to top&lt;/a&gt;
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/footer&gt;
+&lt;script src=&quot;https://code.jquery.com/jquery-3.3.1.slim.min.js&quot; integrity=&quot;sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo&quot; crossorigin=&quot;anonymous&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js&quot; integrity=&quot;sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1&quot; crossorigin=&quot;anonymous&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js&quot; integrity=&quot;sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM&quot; crossorigin=&quot;anonymous&quot;&gt;&lt;/script&gt;
+&lt;/body&gt;&lt;/html&gt;</content><author><name></name></author><summary type="html">Album example · Bootstrap</summary></entry><entry><title type="html">Maeve is Cool!</title><link href="http://localhost:4000/puppies/2021/03/24/maeve.html" rel="alternate" type="text/html" title="Maeve is Cool!" /><published>2021-03-24T11:42:19+00:00</published><updated>2021-03-24T11:42:19+00:00</updated><id>http://localhost:4000/puppies/2021/03/24/maeve</id><content type="html" xml:base="http://localhost:4000/puppies/2021/03/24/maeve.html">&lt;section class=&quot;jumbotron text-center&quot;&gt;
+  &lt;div class=&quot;container&quot;&gt;
+    &lt;h1&gt;Maeve's Holiday&lt;/h1&gt;
+    &lt;p class=&quot;lead text-muted&quot;&gt;This is Maeve's Arran holiday 2020!&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/section&gt;
+
+&lt;!-- START THE FEATURETTES --&gt;
+&lt;hr class=&quot;featurette-divider&quot; /&gt;
+
+&lt;div class=&quot;row featurette&quot;&gt;
+      &lt;div class=&quot;col-md-7&quot;&gt;
+        &lt;h2 class=&quot;featurette-heading&quot;&gt;Maeve at Machrie. &lt;span class=&quot;text-muted&quot;&gt;She looks very happy.&lt;/span&gt;&lt;/h2&gt;
+        &lt;p class=&quot;lead&quot;&gt;Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;col-md-5&quot;&gt;
+        &lt;img src=&quot;/assets/images/maeve1.jpg&quot; alt=&quot;maeve1&quot; style=&quot;width:100%&quot; /&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+
+&lt;hr class=&quot;featurette-divider&quot; /&gt;
+
+&lt;div class=&quot;row featurette&quot;&gt;
+      &lt;div class=&quot;col-md-7 order-md-2&quot;&gt;
+        &lt;h2 class=&quot;featurette-heading&quot;&gt;Maeve at Catacol. &lt;span class=&quot;text-muted&quot;&gt;She is looking a bit tired.&lt;/span&gt;&lt;/h2&gt;
+        &lt;p class=&quot;lead&quot;&gt;Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;col-md-5 order-md-1&quot;&gt;
+        &lt;img src=&quot;/assets/images/maeve2.jpg&quot; alt=&quot;maeve2&quot; style=&quot;width:100%&quot; /&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+
+&lt;hr class=&quot;featurette-divider&quot; /&gt;
+
+&lt;div class=&quot;row featurette&quot;&gt;
+      &lt;div class=&quot;col-md-7&quot;&gt;
+        &lt;h2 class=&quot;featurette-heading&quot;&gt;Again, she is back at Machrie. &lt;span class=&quot;text-muted&quot;&gt;Having a well earned rest!.&lt;/span&gt;&lt;/h2&gt;
+        &lt;p class=&quot;lead&quot;&gt;Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;col-md-5&quot;&gt;
+        &lt;img src=&quot;/assets/images/maeve3.jpg&quot; alt=&quot;maeve3&quot; style=&quot;width:100%&quot; /&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+
+&lt;hr class=&quot;featurette-divider&quot; /&gt;
+
+&lt;!-- /END THE FEATURETTES --&gt;</content><author><name></name></author><summary type="html">Maeve's Holiday This is Maeve's Arran holiday 2020!</summary></entry><entry><title type="html">Poppy is Cool!</title><link href="http://localhost:4000/jekyll/update/2021/03/23/poppy.html" rel="alternate" type="text/html" title="Poppy is Cool!" /><published>2021-03-23T11:42:19+00:00</published><updated>2021-03-23T11:42:19+00:00</updated><id>http://localhost:4000/jekyll/update/2021/03/23/poppy</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2021/03/23/poppy.html">&lt;section class=&quot;jumbotron text-center&quot;&gt;
+  &lt;div class=&quot;container&quot;&gt;
+    &lt;h1&gt;Poppy's Album&lt;/h1&gt;
+    &lt;p class=&quot;lead text-muted&quot;&gt;This is a collection of Poppy images, so we can see how great Poppy is.&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/section&gt;
+
+&lt;div class=&quot;album py-5 bg-light&quot;&gt;
+  &lt;div class=&quot;container&quot;&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+  &lt;div class=&quot;col-md-4&quot;&gt;
+    &lt;div class=&quot;card mb-4 shadow-sm&quot;&gt;
+      &lt;img src=&quot;/assets/images/poppy1.jpg&quot; alt=&quot;poppy1&quot; style=&quot;width:100%,  height:100%&quot; /&gt;
+      &lt;div class=&quot;card-body&quot;&gt;
+        &lt;p class=&quot;card-text&quot;&gt;This is a cute Poppy at the fire under a blanket.&lt;/p&gt;
+        &lt;div class=&quot;d-flex justify-content-between align-items-center&quot;&gt;
+          &lt;div class=&quot;btn-group&quot;&gt;
+            &lt;button type=&quot;button&quot; class=&quot;btn btn-sm btn-outline-secondary&quot;&gt;View&lt;/button&gt;
+            &lt;button type=&quot;button&quot; class=&quot;btn btn-sm btn-outline-secondary&quot;&gt;Edit&lt;/button&gt;
+          &lt;/div&gt;
+          &lt;small class=&quot;text-muted&quot;&gt;9 mins&lt;/small&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;col-md-4&quot;&gt;
+    &lt;div class=&quot;card mb-4 shadow-sm&quot;&gt;
+      &lt;img src=&quot;/assets/images/poppy2.jpg&quot; alt=&quot;poppy2&quot; style=&quot;width:100%, height:100%&quot; /&gt;
+      &lt;div class=&quot;card-body&quot;&gt;
+        &lt;p class=&quot;card-text&quot;&gt;This is Poppy driving a car.&lt;/p&gt;
+        &lt;div class=&quot;d-flex justify-content-between align-items-center&quot;&gt;
+          &lt;div class=&quot;btn-group&quot;&gt;
+            &lt;button type=&quot;button&quot; class=&quot;btn btn-sm btn-outline-secondary&quot;&gt;View&lt;/button&gt;
+            &lt;button type=&quot;button&quot; class=&quot;btn btn-sm btn-outline-secondary&quot;&gt;Edit&lt;/button&gt;
+          &lt;/div&gt;
+          &lt;small class=&quot;text-muted&quot;&gt;9 mins&lt;/small&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+
+  &lt;div class=&quot;col-md-4&quot;&gt;
+    &lt;div class=&quot;card mb-4 shadow-sm&quot;&gt;
+      &lt;img src=&quot;/assets/images/poppy3.jpg&quot; alt=&quot;poppy3&quot; style=&quot;width:100%&quot; /&gt;
+      &lt;div class=&quot;card-body&quot;&gt;
+        &lt;p class=&quot;card-text&quot;&gt;This is Poppy running on the beach.&lt;/p&gt;
+        &lt;div class=&quot;d-flex justify-content-between align-items-center&quot;&gt;
+          &lt;div class=&quot;btn-group&quot;&gt;
+            &lt;button type=&quot;button&quot; class=&quot;btn btn-sm btn-outline-secondary&quot;&gt;View&lt;/button&gt;
+            &lt;button type=&quot;button&quot; class=&quot;btn btn-sm btn-outline-secondary&quot;&gt;Edit&lt;/button&gt;
+          &lt;/div&gt;
+          &lt;small class=&quot;text-muted&quot;&gt;9 mins&lt;/small&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;it-is-well-know-that-poppy-is-really-cool&quot;&gt;It is well know that Poppy is really cool.&lt;/h2&gt;
+
+&lt;section class=&quot;jumbotron text-center&quot;&gt;
+  &lt;div class=&quot;container&quot;&gt;
+&lt;figure&gt;
+  &lt;img src=&quot;/assets/images/poppy1.jpg&quot; alt=&quot;Trulli&quot; style=&quot;width:50%&quot; /&gt;
+  &lt;figcaption&gt;Poppy under a blanket&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;/div&gt;
+&lt;/section&gt;</content><author><name></name></author><summary type="html">Poppy's Album This is a collection of Poppy images, so we can see how great Poppy is.</summary></entry><entry><title type="html">Welcome to Puppies and Kittens!</title><link href="http://localhost:4000/jekyll/update/2021/03/22/welcome-to-puppies-and-kittens.html" rel="alternate" type="text/html" title="Welcome to Puppies and Kittens!" /><published>2021-03-22T11:42:19+00:00</published><updated>2021-03-22T11:42:19+00:00</updated><id>http://localhost:4000/jekyll/update/2021/03/22/welcome-to-puppies-and-kittens</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2021/03/22/welcome-to-puppies-and-kittens.html">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+
+&lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+
+&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Check out the &lt;a href=&quot;https://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><summary type="html">You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.</summary></entry></feed>
